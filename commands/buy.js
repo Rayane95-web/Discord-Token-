@@ -1,4 +1,3 @@
-
 import {SlashCommandBuilder} from "discord.js";
 import {getUser,saveUser} from "../utils/data.js";
 import {shop} from "../utils/shop.js";
@@ -6,6 +5,7 @@ import {shop} from "../utils/shop.js";
 export default {
  data:new SlashCommandBuilder()
  .setName("buy")
+ .setDescription("Buy an item from the shop")
  .addStringOption(o=>o.setName("item").setRequired(true)),
  async execute(i){
   const item=i.options.getString("item");
