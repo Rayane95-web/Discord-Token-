@@ -1,0 +1,9 @@
+{
+  "name": "godmode-v4-ultimate",
+  "version": "4.0.0",
+  "type": "module",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
+  }
+}
